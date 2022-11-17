@@ -11,7 +11,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=1234
     volumes:
-      - db_data:/var/lib/mysql
+      - mysqldata:/var/lib/mysql
       - ./mysql_init_files:/docker-entrypoint-initdb.d
   spring_boot:
     container_name: spring_boot_container
@@ -30,7 +30,7 @@ services:
       spring.datasource.password: 1234
 
 volumes:
-  db_data:
+  mysqldata:
 
 networks:
   backend:
