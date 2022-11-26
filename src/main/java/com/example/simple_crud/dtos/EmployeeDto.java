@@ -1,7 +1,7 @@
-package com.example.disertatie_v4.dtos;
+package com.example.simple_crud.dtos;
 
-import com.example.disertatie_v4.models.Company;
-import com.example.disertatie_v4.models.Employee;
+import com.example.simple_crud.models.Company;
+import com.example.simple_crud.models.Employee;
 
 import java.util.Objects;
 

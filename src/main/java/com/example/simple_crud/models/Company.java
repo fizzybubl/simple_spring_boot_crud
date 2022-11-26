@@ -1,7 +1,7 @@
-package com.example.disertatie_v4.models;
+package com.example.simple_crud.models;
 
 
-import com.example.disertatie_v4.models.embeddables.Address;
+import com.example.simple_crud.models.embeddables.Address;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;

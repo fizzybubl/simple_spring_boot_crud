@@ -1,4 +1,4 @@
-package com.example.disertatie_v4.models;
+package com.example.simple_crud.models;
 
 import javax.persistence.*;
 import java.util.Objects;

@@ -1,10 +1,10 @@
-package com.example.disertatie_v4.services;
+package com.example.simple_crud.services;
 
-import com.example.disertatie_v4.dtos.EmployeeDto;
-import com.example.disertatie_v4.models.Company;
-import com.example.disertatie_v4.models.Employee;
-import com.example.disertatie_v4.repositories.CompanyRepository;
-import com.example.disertatie_v4.repositories.EmployeeRepository;
+import com.example.simple_crud.dtos.EmployeeDto;
+import com.example.simple_crud.models.Company;
+import com.example.simple_crud.models.Employee;
+import com.example.simple_crud.repositories.CompanyRepository;
+import com.example.simple_crud.repositories.EmployeeRepository;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 

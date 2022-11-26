@@ -1,4 +1,4 @@
-package com.example.disertatie_v4.http_client;
+package com.example.simple_crud.http_client;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

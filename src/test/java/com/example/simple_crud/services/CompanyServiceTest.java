@@ -1,26 +1,23 @@
-package com.example.disertatie_v4.services;
+package com.example.simple_crud.services;
 
-import com.example.disertatie_v4.dtos.CompanyDto;
-import com.example.disertatie_v4.models.Company;
-import com.example.disertatie_v4.models.embeddables.Address;
-import com.example.disertatie_v4.repositories.CompanyRepository;
+import com.example.simple_crud.dtos.CompanyDto;
+import com.example.simple_crud.models.Company;
+import com.example.simple_crud.models.embeddables.Address;
+import com.example.simple_crud.repositories.CompanyRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.mockito.ArgumentCaptor;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 

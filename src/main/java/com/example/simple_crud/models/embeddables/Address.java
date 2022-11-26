@@ -1,7 +1,6 @@
-package com.example.disertatie_v4.models.embeddables;
+package com.example.simple_crud.models.embeddables;
 
 import javax.persistence.Embeddable;
-import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import java.util.Objects;
 

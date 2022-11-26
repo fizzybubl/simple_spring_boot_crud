@@ -1,7 +1,7 @@
-package com.example.disertatie_v4.services;
+package com.example.simple_crud.services;
 
-import com.example.disertatie_v4.dtos.CompanyDto;
-import com.example.disertatie_v4.repositories.CompanyRepository;
+import com.example.simple_crud.dtos.CompanyDto;
+import com.example.simple_crud.repositories.CompanyRepository;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 

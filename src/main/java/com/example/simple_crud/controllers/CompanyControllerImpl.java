@@ -1,7 +1,7 @@
-package com.example.disertatie_v4.controllers;
+package com.example.simple_crud.controllers;
 
-import com.example.disertatie_v4.dtos.CompanyDto;
-import com.example.disertatie_v4.services.CompanyService;
+import com.example.simple_crud.dtos.CompanyDto;
+import com.example.simple_crud.services.CompanyService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

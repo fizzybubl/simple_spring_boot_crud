@@ -1,8 +1,8 @@
-package com.example.disertatie_v4.controllers;
+package com.example.simple_crud.controllers;
 
-import com.example.disertatie_v4.dtos.CompanyDto;
-import com.example.disertatie_v4.models.Company;
-import com.example.disertatie_v4.models.embeddables.Address;
+import com.example.simple_crud.dtos.CompanyDto;
+import com.example.simple_crud.models.Company;
+import com.example.simple_crud.models.embeddables.Address;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,6 @@
-package com.example.disertatie_v4.controllers;
+package com.example.simple_crud.controllers;
 
-import com.example.disertatie_v4.dtos.EmployeeDto;
+import com.example.simple_crud.dtos.EmployeeDto;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

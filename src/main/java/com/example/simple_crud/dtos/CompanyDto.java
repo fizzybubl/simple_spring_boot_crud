@@ -1,7 +1,7 @@
-package com.example.disertatie_v4.dtos;
+package com.example.simple_crud.dtos;
 
-import com.example.disertatie_v4.models.Company;
-import com.example.disertatie_v4.models.embeddables.Address;
+import com.example.simple_crud.models.Company;
+import com.example.simple_crud.models.embeddables.Address;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotBlank;

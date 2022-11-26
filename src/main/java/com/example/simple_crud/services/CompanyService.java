@@ -1,6 +1,6 @@
-package com.example.disertatie_v4.services;
+package com.example.simple_crud.services;
 
-import com.example.disertatie_v4.dtos.CompanyDto;
+import com.example.simple_crud.dtos.CompanyDto;
 
 import java.util.List;
 
